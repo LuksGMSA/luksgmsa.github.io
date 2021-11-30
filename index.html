@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia para Iniciantes</title>
+
+</head>
+
+<body>
+    <div style="background-color: black;" id="tudo">
+        <div id="conteudo">
+            <link rel="stylesheet" href="aula0911.css" media="screen" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                crossorigin="anonymous">
+
+
+
+
+
+
+            <body>
+                <br>
+                <br>
+                <audio id="demo" src="somlegal.mp3"></audio>
+
+
+                <audio id="sound1" src="assassino.mp3" preload="auto"></audio>
+                <audio id="sound2" src="lutadores.mp3" preload="auto"></audio>
+                <audio id="sound3" src="mago-(480p).mp3" preload="auto"></audio>
+                <audio id="sound4" src="atiradores.mp3" preload="auto"></audio>
+                <audio id="sound5" src="tank.mp3" preload="auto"></audio>
+
+
+              
+
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                        <div>
+
+                            <button onclick="document.getElementById('demo').play()"><img src="start.png"> Iniciar
+                                Música
+                                </img></button>
+                            <button onclick="document.getElementById('demo').pause()"><img src="pausar.png"> Pausar
+                                Música
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul id="nav-item" class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        style=" text-shadow: 0.11em 0.1em 0.2em black; border: solid;border-color: #2E2E2E; color:white; background-color:rgb(61, 63, 63); font-family: serif; font-size: 20px; font-weight: bolder;"
+                                        aria-current="page" href="#comeco">Topo da página</a>
+                                </li>
+                                <ul id="nav-item"class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                            style=" text-shadow: 0.11em 0.1em 0.2em black; border: solid;border-color: #2E2E2E; color:white; background-color:rgb(61, 63, 63); font-family: serif; font-size: 20px; font-weight: bolder;"
+                                            aria-current="page" href="#rota">Esquema de Rotas</a>
+                                    </li>
+                                    <ul id="nav-item"class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active"
+                                                style=" text-shadow: 0.11em 0.1em 0.2em black; border: solid;border-color: #2E2E2E; color:white; background-color:rgb(61, 63, 63); font-family: serif; font-size: 20px; font-weight: bolder;"
+                                                aria-current="page" href="#classes">Classes</a>
+                                        </li>
+                                        <ul id="nav-item"class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                    style=" text-shadow: 0.11em 0.1em 0.2em black; border: solid;border-color: #2E2E2E; color:white; background-color:rgb(61, 63, 63); font-family: serif; font-size: 20px; font-weight: bolder;"
+                                                    aria-current="page" href="#objetivoss">Objetivos</a>
+                                            </li>
+                                           
+
+                                            </ul>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <a name=comeco></a>
+                    <!-- Inicio do Jumbotron-->
+                    <div class="jumbotron" style="background-color: black">
+                        <h1 style="color: goldenrod; font-family:serif;"><b>Guia para iniciantes <br>
+                                de <br>
+                                League Of Legends</h1></b>
+                    </div>
+                    <!-- Fim do Jumbotron-->
+
+
+
+                    <a name=rota></a>
+
+                    <p>
+
+                        <button class="btn btn-primary" data-toggle="collapse" Name="#jungle" href="#jungle"
+                            style="background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none; margin-top: -450px; margin-left: 50px; margin-right: 500px; font-family: fantasy; font-size: 25px; color:goldenrod; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #000; "
+                            role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#jungle">
+                            SELVA
+                        </button>
+
+                        <button class="btn btn-primary" data-toggle="collapse" name="Mid" href="#Mid"
+                            style=" background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none; margin-top: -340px; margin-left: 250px; margin-right: 500px;  font-family:fantasy; font-size: 25px; color:goldenrod; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #000; "
+                            role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#Mid">
+                            MEIO
+                        </button>
+
+                        <button class="btn btn-primary" data-toggle="collapse" href="#sup"
+                            style="background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;  margin-top: 15px; margin-left: 350px; margin-right: 600px; font-family: fantasy; font-size: 25px; color:goldenrod; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #000; "
+                            role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#sup">
+                            Suporte
+                        </button>
+                        <button class="btn btn-primary" data-toggle="collapse" href="#adc"
+                            style="background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none; margin-top: -10px; margin-left: 510px; margin-right: 1200px; font-family: fantasy; font-size: 25px; color:goldenrod; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #000; "
+                            role="button" aria-expanded="false" aria-controls="collapseExample" data-target="#adc">
+                            ADC
+                        </button>
+                        <button class="btn btn-primary" type="submit" href="#topo"
+                            style=" background-color: Transparent;background-repeat:no-repeat; border: none; overflow: hidden;  margin-top:-930px; margin-left:-35px; margin-right: 500px; font-family:fantasy; font-size: 25px; color:goldenrod;  -webkit-text-stroke-width: 2px;  -webkit-text-stroke-color: #000;"
+                            type="button" data-toggle="collapse" data-target="#topo" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            TOPO </button>
+                    </p>
+
+
+                    <pd>
+                        <div class="collapse" id="topo">
+                            <div class="card card-body" style="font-family:serif;background-color: black;
+                    border: solid;
+                    border-color: #2E2E2E; color: white; font-size: 20px">
+                                Para ser um bom Jogador da Rota superior se precisa de ter um conhecimento sobre
+                                controle de wave e muitas vezes, saber como jogar de uma forma isolada, já que existe
+                                pouca interação entre a rota superior e as outras, além de precisar ter um bom controle
+                                da visão do Arauto do Vale ou do Barão Na'Shor para auxiliar seu time, muitas vezes é
+                                necessário também splittar, splittar é manter a pressão na rota, sempre focando em levar
+                                as estruturas e manter o time inimigo ocupado para que os aliados possam fazer os
+                                objetivos, farmar e avançar suas rotas mais facilmente.
+                                <br></br><B>Controle de Wave </B>
+                                Como você deve saber todo início de partida se baseia em matar os minions também
+                                conhecidos
+                                como CS
+                                ou Crips, ao se matar um minion ganha ouro para comprar itens e fortalecer o seu
+                                campeão.
+                                Uma das
+                                informações mais importante de se saber é quando dar o último golpe (Last Hit) para
+                                ficar um
+                                mestre
+                                do farm precisa treinar, criar uma partida de treino e treinar seu farm com seu campeão.
+                                Uma
+                                dica que
+                                pode salvar sua vida é como farmar em baixo da torre
+                                Minion Guerreiro: 2 golpes da torre e 1 golpe do campeão (se o ataque básico do campeão
+                                for
+                                muito
+                                baixo, 2 golpes do campeão) Minion Mago: 1 golpe da torre e 2 golpes do campeão.
+                                Canhão/Catapa:
+                                Neste minion é essencial garantir o último golpe pois ele é o minion que mais dará ouro,
+                                recomendo
+                                usar skill pois ele é um minion bem focado na rota e a sua vida pode variar bastante ao
+                                chegar na
+                                torre
+
+
+                            </div>
+                        </div>
+                    </pd>
+                    <pd>
+                        <div class="collapse" id="jungle">
+                            <div class="card card-body" style="font-family:serif;background-color: black; 
+                    border: solid;
+                    border-color: #2E2E2E;color: white; font-size: 20px">
+                                na selva existem três tipos de campeões para se jogar, é algo essencial reconhecer qual
+                                dessas 3 classes o seu campeão esta e o quê você deve priorizar, os três tipos são:
+                                farm, gank e objetivos, cada um dessas classes tem um estilo diferente de jogar, quando
+                                se esta jogando na selva com um boneco de gank, você deve priorizar ajudar os jogadores
+                                das outras rotas, sabendo quando interferir numa luta para ganhar a vantagem e deixar
+                                seus aliados fortes, se for para focar no farm deve saber limpar a sua selva, fazer os
+                                objetivos como os dragões, Arautos e barões e se possível, invadir a selva inimiga para
+                                ganhar vantagem . sobre rotação na selva tem que estar sempre atento com isto pois o
+                                meta esta sempre mudando e modificando a selva, por exemplo o sapo ja foi o monstro da
+                                selva que lhe da mais experiencia, diferente do meta atual onde ele da experiencia
+                                semelhante de matar os lobos, uma coisa que indiferente de seu boneco deve tentar dar
+                                prioridade são os arongueijos, estes são os besouros verdes que passeiam pelo rio,
+                                quando derrotado, ele concederá uma quantia razoável de ouro e experiência e uma visão
+                                da área, assim ajudando a saber onde estão seus inimigos e saber onde vai acontecer uma
+                                luta, para poder se antecipar e combater essa jogada.
+                            </div>
+                        </div>
+                    </pd>
+                    <pd>
+
+                        <div class="collapse" id="Mid">
+                            <div class="card card-body" style="font-family:serif;background-color: black; 
+                    border: solid;
+                    border-color: #2E2E2E;color: white; font-size: 20px">
+                                Para ser um bom jogador na rota do Meio é necessário ser bem versátil pois é uma rota
+                                muito
+                                disputada,
+                                nela é fácil é comum de se ver campeões de outras rotas sendo utilizados (por exemplo
+                                Lucian
+                                um AD
+                                Carry que por muito tempo foi utilizado na Rota Meio). um conceito básico do Meio é
+                                saber
+                                lidar com
+                                seu adversário, reconhecer a sua classe e sua hora de o enfrentar, reconhecer se ele é
+                                um
+                                Mago,
+                                Assassino e Atirador já que essas são as classes mais utilizadas nesta rota. No meio
+                                diferente do
+                                Topo e Bot, você pode ajudar suas outras rotas a pegar vantagem, um campeão bem comum de
+                                fazer isso
+                                são os assassinos pois eles possuem uma grande mobilidade e dano.
+                                <br></br><B>Controle de Wave </B>
+                                Como você deve saber todo início de partida se baseia em matar os minions também
+                                conhecidos
+                                como CS
+                                ou Crips, ao se matar um minion ganha ouro para comprar itens e fortalecer o seu
+                                campeão.
+                                Uma das
+                                informações mais importante de se saber é quando dar o último golpe (Last Hit) para
+                                ficar um
+                                mestre
+                                do farm precisa treinar, criar uma partida de treino e treinar seu farm com seu campeão.
+                                Uma
+                                dica que
+                                pode salvar sua vida é como farmar em baixo da torre
+                                Minion Guerreiro: 2 golpes da torre e 1 golpe do campeão (se o ataque básico do campeão
+                                for
+                                muito
+                                baixo, 2 golpes do campeão) Minion Mago: 1 golpe da torre e 2 golpes do campeão.
+                                Canhão/Catapa:
+                                Neste minion é essencial garantir o último golpe pois ele é o minion que mais dará ouro,
+                                recomendo
+                                usar skill pois ele é um minion bem focado na rota e a sua vida pode variar bastante ao
+                                chegar na
+                                torre
+
+                            </div>
+                        </div>
+                    </pd>
+                    <pd>
+                        <div class="collapse" id="adc">
+                            <div class="card card-body" style="font-family:serif;background-color: black; 
+                    border: solid;
+                    border-color: #2E2E2E;color: white; font-size: 20px">
+                                Para ser um bom Atirador também conhecido como ADC que significa carregador AD, esta
+                                rota exige concentração, já que para um jogador desta posição ficar forte são
+                                necessários vários itens que não são nada baratos. esta rota é mais impactante durante o
+                                meio/final do jogo e depende muito do seu farm para conseguir ouro no começo, além de
+                                ser necessário um bom conhecimento sobre como se posicionar, considerando que os
+                                campeões que normalmente são usados nesta posição tem pouca vida e resistências e pode
+                                facilmente ser eliminado.
+                                <br></br><B>Controle de Wave </B>
+                                Como você deve saber todo início de partida se baseia em matar os minions também
+                                conhecidos
+                                como CS
+                                ou Crips, ao se matar um minion ganha ouro para comprar itens e fortalecer o seu
+                                campeão.
+                                Uma das
+                                informações mais importante de se saber é quando dar o último golpe (Last Hit) para
+                                ficar um
+                                mestre
+                                do farm precisa treinar, criar uma partida de treino e treinar seu farm com seu campeão.
+                                Uma
+                                dica que
+                                pode salvar sua vida é como farmar em baixo da torre
+                                Minion Guerreiro: 2 golpes da torre e 1 golpe do campeão (se o ataque básico do campeão
+                                for
+                                muito
+                                baixo, 2 golpes do campeão) Minion Mago: 1 golpe da torre e 2 golpes do campeão.
+                                Canhão/Catapa:
+                                Neste minion é essencial garantir o último golpe pois ele é o minion que mais dará ouro,
+                                recomendo
+                                usar skill pois ele é um minion bem focado na rota e a sua vida pode variar bastante ao
+                                chegar na
+                                torre
+
+                            </div>
+                        </div>
+
+                    </pd>
+                    <pd>
+                        <div class="collapse" id="sup">
+                            <div class="card card-body" style="font-family:serif;background-color: black;
+                    border: solid;
+                    border-color: #2E2E2E; color: white; font-size: 20px">
+                                Os Suportes são responsáveis por auxiliar o atirador e o manter seguro, existem 4 tipos
+                                de suportes, os Suportes Tank, Os suportes de Peel, Suportes de Engage e Suportes de
+                                Poke.
+                                Os Suportes Tank são responsáveis por proteger o time e seu atirador, normalmente estes
+                                campeões tem habilidades focadas na absorção de dano e em escudos, para poder sobreviver
+                                por mais tempo.
+                                Os Suportes de Peel são responsavéis por curar, dar escudos e dano extra ao seu
+                                atirador, normalmente sendo campeões mais frágeis.
+                                Os Suportes de Engage são responsáveis por iniciar lutas favoráveis para seu time e
+                                manter o inimigo ocupado.
+                                Os Suportes de Poke são responsáveis por pressionar o inimigo, causando dano através de
+                                habilidades de longa distância e deixando ele numa situação desfavorável
+
+                                Vale lembrar que diversos suportes são combinações destes 4 tipos, como por exemplo a
+                                Leona, que é um suporte Tank de Engage.
+
+                                Diferente das outras posições no jogo, os suportes não farmam, eles tem outros meios de
+                                ganhar dinheiro e normalmente ganham menos que as outras rotas, já que ganham dinheiro
+                                apenas através de seus itens de suporte e evitam pegar abates (tirando o caso de alguns
+                                suportes como o Pyke, que ao pegar um abate, concede ouro para seus aliados) e
+                                normalmente tem itens mais baratos.
+                            </div>
+                        </div>
+
+                    </pd>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+        <br style="background-color: black;">
+        </br> <br style="background-color: black;">
+        </br> <br style="background-color: black;">
+        </br> <br style="background-color: black;">
+        </br> <br style="background-color: black;">
+        </br> <br style="background-color: black;">
+        </br>
+        <G>
+            <a name=classes></a>
+            <!--botaoassassino-->
+            <button id="assassin" onclick="document.getElementById('sound1').play()" type="button"
+                class="btn btn-primary" href=#assassino
+                style="border-color:#8b0000;background-color: #8b0000; position:absolute  ; " data-toggle="modal"
+                data-target=".assassino">Assassinos</button>
+
+
+
+
+            <div style="margin-right: 100px;" class="modal fade assassino" tabindex="-1" role="dialog"
+                aria-labelledby="assassino" aria-hidden="true">
+                <div style="background-color: #2E2E2E; " class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <r
+                            style="font-family: serif; position:relative;width: 850px; margin-right: 1000px;font-size: 30px; color:; border:solid; padding:100px ;border-color:darkred;background-color: rgb(231, 94, 94)">
+                            Assassinos são conhecidos pelo seu dano explosivo e sua alta mobilidade, durante uma luta
+                            eles tem o papel de eliminar os campeões mais fracos e pegar jogadores fora de posição, eles
+                            também tem pouca vida e costumam ter pouco controle de grupo. Vale lembrar que nem todos os
+                            campeões agéis são assassinos. <br></br> <img
+                                style="border-bottom: solid; border-top: solid; border-color: #88001b; margin-left:auto; margin-right: auto; "
+                                src="ASSASSINOS.png"> </img> </r>
+                    </div>
+                </div>
+            </div>
+            <!--finalbotaoassassino OBS, o que linka eles é o  class="modal fade (Nome) e o data target e lembrar de colocar o barulho da yuumi no suporte"-->
+            <!--botaoassassino-->
+            <button id="bruiser" onclick="document.getElementById('sound2').play()" type="button"
+                class="btn btn-primary" href=#bruiser
+                style="border-color:#1669ad;background-color: #1669ad; position:absolute  ; " data-toggle="modal"
+                data-target=".bruiser">Lutadores</button>
+
+
+
+
+            <div style="margin-right: 100px;" class="modal fade bruiser" tabindex="-1" role="dialog"
+                aria-labelledby="bruiser" aria-hidden="true">
+                <div style="background-color: #2E2E2E; " class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <r
+                            style="font-family: serif; position:relative;width: 850px; margin-right: 1000px;font-size: 30px; color:; border:solid; padding:100px ;border-color:#1669ad;background-color: #3a90d6">
+                            Lutadores tem o papel de intermediários durante uma luta, eles vão sobreviver, se curar e
+                            conseguir se manter vivo tempo suficiente para que as principais fontes de dano do time
+                            possam fazer seu papel e ficar seguros ao mesmo tempo que eles tem estes recursos para
+                            sobreviver, também são capazes de causar uma boa quantidade de dano, normalmente estes são
+                            os campeões responsáveis por manter a pressão e focar em levar estruturas e objetivos para
+                            que o time possa ficar livre durante o jogo. <br></br> <img
+                                style="border: solid; border-color: #1669ad; margin-left:auto; margin-right: auto; "
+                                src="LUTADORES.png"> </img> </r>
+                    </div>
+                </div>
+            </div>
+            <!--finalbotaoassassino OBS, o que linka eles é o  class="modal fade (Nome) e o data target e lembrar de colocar o barulho da yuumi no suporte"-->
+            <!--botaoassassino-->
+            <button id="mage" onclick="document.getElementById('sound3').play()" type="button" class="btn btn-primary"
+                href=#mage style="border-color:#6100bd;background-color: #6100bd; position:absolute  ; "
+                data-toggle="modal" data-target=".mage">Mago</button>
+
+
+
+
+            <div style="margin-right: 100px;" class="modal fade mage" tabindex="-1" role="dialog" aria-labelledby="mage"
+                aria-hidden="true">
+                <div style="background-color: #2E2E2E; " class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <r
+                            style="font-family: serif; position:relative;width: 850px; margin-right: 1000px;font-size: 30px; color:; border:solid; padding:100px ;border-color:purple;background-color: #b464ff">
+                            Os Magos tem o papel de dano mágico do time, eles causam esse dano através de suas
+                            habilidades e normalmente, os usuários da classe possuem controle de grupo (Atordoar,
+                            Silenciar, Amedrontar e ETC.) para auxiliar o time de outras formas. Os Magos ficam na linha
+                            de trás do time já que são muito frágeis. <br></br> <img
+                                style="border: solid; border-color: #6100bd; margin-left:auto; margin-right: auto; "
+                                src="MAGOS.png"> </img> </r>
+                    </div>
+                </div>
+            </div>
+            <!--finalbotaoassassino OBS, o que linka eles é o  class="modal fade (Nome) e o data target e lembrar de colocar o barulho da yuumi no suporte"-->
+            <!--botaoassassino-->
+            <button id="cross" onclick="document.getElementById('sound4').play()" type="button" class="btn btn-primary"
+                href=#cross style="border-color:#d68e07;background-color: #d68e07; position:absolute  ; "
+                data-toggle="modal" data-target=".cross">Atirador</button>
+
+
+
+
+            <div style="margin-right: 100px;" class="modal fade cross" tabindex="-1" role="dialog"
+                aria-labelledby="cross" aria-hidden="true">
+                <div style="background-color: #2E2E2E; " class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <r
+                            style="font-family: serif; position:relative;width: 850px; margin-right: 1000px;font-size: 30px; color:; border:solid; padding:100px ;border-color:#d68e07;background-color: #ffc65d">
+                            Atiradores tem o papel de ser a principal fonte de dano físico no time e são considerados os
+                            personagens que vão "carregar" o jogo (por isso o nome ADC, que vem de AD Carry), eles,
+                            diferente dos magos, não tem a principal fonte de dano baseada nas suas habilidades, mas sim
+                            nos seus ataques básicos, esta classe é muito vulnerável e fica na linha de trás durante uma
+                            luta. <img
+                                style="border: solid; border-color: #d68e07; margin-left:auto; margin-right: auto; "
+                                src="ATIRADORES.png"> </img> </r>
+                    </div>
+                </div>
+            </div>
+            <!--finalbotaoassassino OBS, o que linka eles é o  class="modal fade (Nome) e o data target e lembrar de colocar o barulho da yuumi no suporte"-->
+            <!--botaoassassino-->
+            <button id="tank" onclick="document.getElementById('sound5').play()" type="button" class="btn btn-primary"
+                href=#tank style="border-color:#00cc7e;background-color: #00cc7e; position:absolute  ; "
+                data-toggle="modal" data-target=".tank">Tank</button>
+
+
+
+
+            <div style="margin-right: 100px;" class="modal fade tank" tabindex="-1" role="dialog" aria-labelledby="tank"
+                aria-hidden="true">
+                <div style="background-color: #2E2E2E; " class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <r
+                            style="font-family: serif; position:relative;width: 850px; margin-right: 1000px;font-size: 30px; color:; border:solid; padding:100px ;border-color:#00cc7e;background-color: #a8ffde">
+                            Os Tanks tem o papel de ficar na linha de frente durante e proteger seus aliados, suas
+                            habilidades são focadas na absorção de dano e em fornecer resistências e escudos para o
+                            usuário, alguns também tem controle de grupo para que possam manter o inimigo mais tempo
+                            parado e ocupado enquanto as principais fontes de dano do time fazem seu trabalho. <br></br>
+                            <img style="border: solid;  border-color: #00cc7e; margin-left:auto; margin-right: auto; "
+                                src="TANK.png"> </img> </r>
+                    </div>
+                </div>
+            </div>
+            <!--finalbotaoassassino OBS, o que linka eles é o  class="modal fade (Nome) e o data target e lembrar de colocar o barulho da yuumi no suporte"-->
+        </G>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="border:solid;border-width: 10px; border-color:  rgba(14, 104, 177, 0.938);"
+                        class="d-block w-100" src="objetivos.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img style="border:solid;border-width: 10px; border-color:  rgba(17, 14, 41, 0.938);"
+                        class="d-block w-100" src="Dragões.png" alt="Segundo Slide">
+                </div>
+
+                <div class="carousel-item">
+                    <img style="border:solid;border-width: 10px; border-color:  rgb(160, 42, 214);"
+                        class="d-block w-100" src="arautohype.png" alt="Terceiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img style="border:solid;border-width: 10px; border-color:  darkslateblue;" class="d-block w-100"
+                        src="barao.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img style="border:solid;border-width: 10px; border-color:  rgb(40, 127, 209);"
+                        class="d-block w-100" src="anciao.png" alt="Primeiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+
+            </a>
+            <a name="objetivoss"></a>a
+        </div>
+    </div>
+    </div>
+    
+
+
+</body>
+
+</html>
