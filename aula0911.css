@@ -1,0 +1,112 @@
+
+}
+a {
+  background-color: #fb5f70;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+h1 {
+border-radius: 100px;
+background-color: #5b0b1b;
+padding: 15px;
+text-align: center;
+text-shadow: 0.11em 0.1em 0.2em black;
+font-size: 50px;
+font-style:oblique
+}
+#guia { font-size: 50px;
+  font-style:oblique;
+  text-align: center;
+  text-shadow: 0.11em 0.1em 0.2em black;}
+P {
+background-image:url(https://cdn.discordapp.com/attachments/816730626996305920/907736567379025920/OSem_titulo.png);
+padding: 500px;
+background-repeat: no-repeat;
+background-color: black;
+
+}body {
+  margin:0;
+  padding:0;
+  background-image: url("https://i.pinimg.com/originals/13/c7/70/13c770420a18a1ce0a8109b793815dea.gif");
+  background-repeat: no-repeat;
+  background-size: cover;;
+  text-align:center; /* hack para o IE */	
+
+      }
+  #tudo {
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: 10px;
+    border-color: #5b0b1b;
+  width: 1300px;
+  margin:0 auto;			
+  text-align:left; /* "remédio" para o hack do IE */	
+  
+  
+
+      }
+  #conteudo {
+  padding: 5px;
+  
+      }
+g {
+    background-image: url(editada.png);
+    padding: 200px;
+    padding-left:1000px;
+    background-size: 85%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+
+}
+#navbar{
+  background-size: 100%;
+  background-color: black;
+}
+html{
+    background-color: black;
+  background-size: 0%;}
+  #assassin {
+    position:relative;
+  margin-left: -930px;
+  margin-bottom: -200px;
+  
+  }
+  #bruiser {
+
+margin-left: -720px;
+margin-top: 0px;
+vertical-align: middle;
+  
+  }
+  
+  #mage {
+
+    margin-left: -490px;
+    margin-top: 0px;
+    vertical-align: middle;
+      
+      }
+      
+  #cross {
+
+    margin-left: -320px;
+    margin-top: 0px;
+    vertical-align: middle;
+      
+      }
+      
+  #tank {
+
+    margin-left: 960px;
+    margin-top: -23px;
+    vertical-align: middle;
+      
+      }
+      #nav-item {
+        margin-left: 130px;
+        vertical-align: middle;
+    }
